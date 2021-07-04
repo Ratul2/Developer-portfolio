@@ -44,7 +44,6 @@ h2{
 
 .right-sit-imge {
     width: 40%;
-   
     margin-left: 5%;
     padding-left: 2%;
 }
@@ -53,7 +52,7 @@ p {
 }
 
 .right-sit-imge img {
-    width: 80%;
+    width:80%;
 }
 a.button-hear {
     padding: 10px 40px;
@@ -92,5 +91,5 @@ a.button-hear {
 
 }
 footer p{
-    text-align: center;
+    text-align:center;
 }
