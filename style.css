@@ -5,8 +5,9 @@ body{
     font-weight: 400;
     margin: 0;
 }
-section{
+.flixbel-contaner{
     margin-bottom: 150px;
+    display: flex;
 }
 .banner{
     overflow: hidden;
@@ -19,6 +20,12 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
+.Experiences{
+    background: url(imges/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:center left;
+
+}
 h1{
     font-size: 50px;
 }
@@ -30,14 +37,14 @@ h2{
 }
 .left-sit-contane {
     width: 40%;
-    float: left;
+    
     margin-left: 5%;
     padding-left: 2%;
 }
 
 .right-sit-imge {
     width: 40%;
-    float: left;
+   
     margin-left: 5%;
     padding-left: 2%;
 }
@@ -55,4 +62,35 @@ a.button-hear {
     color: #fff;
     font-weight: 700;
     text-decoration: none;
+}
+
+.Experiences-full-stap {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 5px 10px 40px gray;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+.Experiences-full-stap h3 {
+    color: orange;
+}
+.left-Experiences{
+    border-left: 7px solid;
+   border-image: linear-gradient(180deg , lightsalmon, tomato);
+   border-image-slice: 1;
+   height: 400px ;
+ 
+
+}
+.right-Experiences{
+    border-left: 7px solid ;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+    height: 400px ;
+
+}
+footer p{
+    text-align: center;
 }
